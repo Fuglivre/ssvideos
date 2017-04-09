@@ -103,6 +103,7 @@ h1 {
 }
 .vid{
 text-align: center;
+margin: 30px 10px 10px 10px;
 }
 .videopic{
 margin: 5px 10px 10px 5px;
@@ -113,4 +114,7 @@ color: #F4F38A;
 .videopic2,
 .videodescription2{
     float: right;
+}
+.vid2{
+text-align: center;
 }
