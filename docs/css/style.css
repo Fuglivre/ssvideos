@@ -113,3 +113,20 @@ color: #F4F38A;
 .vid2{
 text-align: center;
 }
+.banner{
+	margin: 10px 0;
+	position: relative;
+}
+
+h2 { 
+   position: absolute; 
+   top: 0px; 
+   left: -70px; 
+   width: 100%; 
+font-size: 45px;
+	font-style: italic;
+}
+
+.link, .link:hover{
+  color: #ffffff; 
+}
