@@ -39,7 +39,7 @@ h1 {
 #videoheader{
 	text-align: center;
     font-family: "Calibri", "Helvetica Neue";
-    padding: 5% 0 0 0;
+    padding: 8% 0 0 0;
 }
 
 .question {
@@ -145,7 +145,7 @@ text-align: center;
 	margin: 0 10%;
 }
 .videocontainer{
-	margin: 5% 8% 2% 8%;
+	margin: 6% 8% 2% 8%;
 }
 .videocontent{
 	border: double;
@@ -179,4 +179,7 @@ text-align: center;
 	background-image:url("../images/Sixform-A_3909a.jpg");
 	background-position:center;
 	background-size: cover;
+}
+h5{
+	font-size: 17px;
 }
