@@ -1,16 +1,19 @@
 body {
-	background: #222;
+	background-image:url(../images/BackgroundBlackBorderThin.png);
 	color: #fff;
+	background-repeat:space;
+	background-size: 100%;
 }
 h1 {
-	color: #F4F38A;
+	color: #fff;
 }
 .faded {
-  color: #F5E3C3;
-  font-size: large;
+  color: #fff;
+  font-size: 22px;
+  margin: 30px;
 }
 #quiz-counter {
-  color: #F4F38A;
+  color: #fff;
   margin-bottom: 10px;
 }
 .quiz-container {
@@ -30,7 +33,13 @@ h1 {
 #quiz-counter {
     text-align: center;
     font-family: "Calibri", "Helvetica Neue";
-    padding: 30px 0 0 0;
+    padding: 15% 0 0 0;
+}
+
+#videoheader{
+	text-align: center;
+    font-family: "Calibri", "Helvetica Neue";
+    padding: 5% 0 0 0;
 }
 
 .question {
@@ -62,7 +71,7 @@ h1 {
 }
 
 #quiz-controls1 {
-    background: #F4F38A;
+    background: #fff;
     color: #111;
     padding: 0.25em 0.5em 0.5em;
 	text-align: center;
@@ -94,7 +103,7 @@ h1 {
 	text-align: center;
 }
 .quiz-results-state #quiz-buttons a {
-    background: #F4F38A;
+    background: #fff;
     color: #000;
 }
 .quiz-start-motto{
@@ -107,26 +116,67 @@ margin: 30px 10px 10px 10px;
 }
 
 .videodescription{
-color: #F4F38A;
+color: #fff;
 }
 
 .vid2{
 text-align: center;
 }
-.banner{
-	margin: 10px 0;
-	position: relative;
-}
 
-h2 { 
-   position: absolute; 
-   top: 0px; 
-   left: -70px; 
-   width: 100%; 
-font-size: 45px;
-	font-style: italic;
+.mainpagebox{
+	margin: 10% 10%;
+	background-color: #1C1C1C;
+	padding: 30% 10%;
+	font-size: 24px;
+	border: double;
 }
-
-.link, .link:hover{
-  color: #ffffff; 
+.videobox{
+	margin: 5% 10% 2% 10%;
+	background-color: #1C1C1C;
+	padding: 20% 10%;
+	font-size: 24px;
+	border: double;
+}
+.videolink:link, .videolink:visited, .videolink:hover, .videolink:active {
+	color: #fff;
+	text-shadow: 2px 2px 5px black;
+}
+.textbox{
+	margin: 0 10%;
+}
+.videocontainer{
+	margin: 5% 8% 2% 8%;
+}
+.videocontent{
+	border: double;
+}
+#video1{
+	background-image:url("../images/Cosmos01.jpg");
+	background-position:center;
+	background-size: cover;
+}
+#video2{
+	background-image:url("../images/Cosmos02.jpg");
+	background-position:center;
+	background-size: cover;
+}
+#video3{
+	background-image:url("../images/Cosmos03.jpg");
+	background-position:center;
+	background-size: cover;
+}
+#video4{
+	background-image:url("../images/Cosmos04.jpg");
+	background-position:center;
+	background-size: cover;
+}
+#academics{
+	background-image:url("../images/20150903173413-books-shop-fair-library-used-bookshelf-literature-study-textbooks.jpg");
+	background-position:center;
+	background-size: cover;
+}
+#students{
+	background-image:url("../images/Sixform-A_3909a.jpg");
+	background-position:center;
+	background-size: cover;
 }
