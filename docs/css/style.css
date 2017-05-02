@@ -151,22 +151,22 @@ text-align: center;
 	border: double;
 }
 #video1{
-	background-image:url("../images/Cosmos01.jpg");
+	background-image:url("../images/Johnston.jpg");
 	background-position:center;
 	background-size: cover;
 }
 #video2{
-	background-image:url("../images/Cosmos02.jpg");
+	background-image:url("../images/Antony.jpg");
 	background-position:center;
 	background-size: cover;
 }
 #video3{
-	background-image:url("../images/Cosmos03.jpg");
+	background-image:url("../images/Agar.jpg");
 	background-position:center;
 	background-size: cover;
 }
 #video4{
-	background-image:url("../images/Cosmos04.jpg");
+	background-image:url("../images/Rose.jpg");
 	background-position:center;
 	background-size: cover;
 }
